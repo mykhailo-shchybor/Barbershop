@@ -54,3 +54,46 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* HEDER */
+.header {
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
+
+.header-logo {}
+
+.logo {
+	margin-right:70px;
+}
+
+.header-nav {
+	
+}
+
+.list {}
+
+.header-list {
+	display: flex;
+}
+
+.header-item:not(:last-child){
+	margin-right: 30px;
+}
+
+.header-nav-link {}
+
+.header-group {
+	margin-left: auto;
+}
+
+.header-contakt-link {}
+
+.btn {}
